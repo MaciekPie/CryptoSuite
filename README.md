@@ -15,10 +15,7 @@ Projekt: hybrydowy system szyfrowania (RSA + AES) — Python + PySide6.
 - `crypto/hybrid.py` — łączenie RSA + AES (hybrydowe szyfrowanie)
 - `utils/file_manager.py` — pomoc dla plików (zapis/odczyt binarny + JSON wrapper)
 - `keys/` — katalog docelowy na klucze RSA
-- `examples/` — przykładowe zaszyfrowane pliki (puste)
+- `files/` - katalog na wszystkie pliki
 
 **Uruchomienie**
-- Wygeneruj klucze RSA (używając modułu `crypto.rsa_cipher` lub GUI).
-- Uruchom `python main.py --help` aby zobaczyć opcje CLI.
-
-To jest szkic startowy — mogę teraz rozwinąć każdy moduł, dodać testy i GUI funkcjonalne.
+- W terminalu wpisz `python -m gui.app`
